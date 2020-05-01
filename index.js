@@ -14,7 +14,8 @@ function iterate(obj, property, value, visited) {
     return visited.get(obj);
   }
 
-  const result = { ...obj };
+  const result = {};
+  Object.keys(obj).forEach( key => result[key] = obj[key] );
 
   if (property in result) {
     result[property] = value;
