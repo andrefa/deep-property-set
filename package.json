@@ -2,7 +2,7 @@
   "name": "deep-property-set",
   "version": "1.0.1",
   "description": "Deep set js object properties based on property name, in any deepness level",
-  "main": "ìndex.js",
+  "main": "index.js",
   "keywords": [
     "object",
     "property",
